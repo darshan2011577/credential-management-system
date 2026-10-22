@@ -1,0 +1,29 @@
+{
+  "name": "@credential-manager/web",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "clean": "rimraf dist *.tsbuildinfo",
+    "lint": "tsc --noEmit",
+    "test": "echo \"Phase 1: Web baseline UI test\""
+  },
+  "dependencies": {
+    "@credential-manager/config": "workspace:*",
+    "@credential-manager/types": "workspace:*",
+    "lucide-react": "^1.16.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.7.3",
+    "vite": "^6.1.0"
+  }
+}

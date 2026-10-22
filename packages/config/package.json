@@ -1,0 +1,30 @@
+{
+  "name": "@credential-manager/config",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Shared configurations and system constants for Credential Manager",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "clean": "rimraf dist *.tsbuildinfo",
+    "lint": "tsc --noEmit",
+    "test": "echo \"No tests for @credential-manager/config\""
+  },
+  "dependencies": {
+    "@credential-manager/types": "workspace:*"
+  },
+  "devDependencies": {
+    "rimraf": "^6.0.1",
+    "typescript": "^5.7.3"
+  }
+}

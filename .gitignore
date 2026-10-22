@@ -1,0 +1,81 @@
+
+# Dependencies
+node_modules/
+.pnpm-store/
+.npm/
+.yarn/
+
+# Build & Distribution Outputs
+dist/
+dist-electron/
+build/
+out/
+release/
+*.tsbuildinfo
+.vite/
+
+# Local Environment Variables & Secrets (CRITICAL: Never commit secrets)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+!.env.example
+
+# File Share Storage & Temporary Uploads
+storage/
+uploads/
+temp/
+tmp/
+*.tmp
+
+# License Keys, Private RSA Certificates & Local State
+tools/license/keys/
+*.private.pem
+*.private.key
+license_private.pem
+license-state.json
+
+# Logs & Diagnostics
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Docker & Database Local Storage
+.redis-data/
+docker/data/
+
+# Testing & Coverage
+coverage/
+.nyc_output/
+
+# IDE & Editor Configurations
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Scratch / Temporary Test Files
+test.js
+test.ts
+test.jsx
+test.json
+test.txt

@@ -1,0 +1,22 @@
+{
+  "payload": {
+    "version": 1,
+    "licenseId": "LIC-20260917-33CDE2B5",
+    "product": "CredentialManager",
+    "issuedAt": "2026-09-17T10:26:01.718Z",
+    "expiresAt": "2026-11-17T23:59:59.999Z",
+    "customerId": "TOPTECH-COLLEGE-001",
+    "issuedTo": "Faculty & Administrative Staff",
+    "organization": "Top Tech College of Engineering",
+    "machineBinding": "*",
+    "features": {
+      "credentialManagement": true,
+      "sharing": true,
+      "auditLogging": true,
+      "passwordHealth": true,
+      "notifications": true
+    }
+  },
+  "signature": "HuYyyEjzbBGH1bJRCRKz+CuSJadhEccopCgGSFtmyUtJDrX8xlX509G+aevSlYckKAf7w5TFt0bdH3vhM/HUAw==",
+  "algorithm": "Ed25519"
+}
